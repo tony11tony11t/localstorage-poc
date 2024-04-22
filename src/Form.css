@@ -1,0 +1,94 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 48px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input,
+textarea {
+  font-size: 20px;
+  padding: 8px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+a {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.attributes-list {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.attributes {
+  background-color: rgb(49, 122, 231);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.submit {
+  background-color: rgb(49, 122, 231);
+  font-size: 20px;
+  font-weight: 500;
+  height: 50px;
+}
+
+.submit:hover {
+  background-color: rgb(39, 102, 191);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: auto;
+  width: 700px;
+  margin-top: 24px;
+}
+
+.tbody {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  border: 2px solid white;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+}
+
+.tbody > * {
+  flex: 1;
+  padding: 4px;
+  margin: 0;
+}
+
+.table-tag-list {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  flex-direction: column;
+}
+
+.table-tag {
+  background-color: rgb(13, 94, 216);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
