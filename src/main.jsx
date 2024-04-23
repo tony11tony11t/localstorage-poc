@@ -7,6 +7,8 @@ import Form from "./Form.jsx";
 
 import "./index.css";
 
+console.log("main.jsx");
+
 const router = createBrowserRouter([
   {
     path: "/",
